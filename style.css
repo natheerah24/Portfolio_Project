@@ -1,0 +1,92 @@
+#Landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/landing-bg.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+body {
+  overflow-x: hidden;
+}
+.Important {
+  color: #bfad5f;
+  font-family: "Satisfy", cursive;
+}
+h1,
+h2 {
+  font-family: "Old Standard TT", serif;
+}
+.hover-zoom {
+  transition: transform 0.3s linear;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.08);
+}
+.bg-image {
+  max-width: 50%;
+  position: relative;
+  margin-left: 20%;
+  padding-right: 0px;
+  max-height: 50%;
+  border-radius: 50px;
+}
+#about-text-container {
+  padding-left: 80px;
+}
+#Skills {
+  min-height: 100vh;
+  padding: 5% 10%;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  color: #bfad5f;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: stretch;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.card12 {
+  box-shadow: 10px 4px 11px rgb(0, 0, 0, 1.5);
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+.card12 > i {
+  font-size: 60px;
+}
+/* 
+.skills:hover {
+
+} */
+
+.skills-container .card12:hover {
+  background-color: #bfad5f;
+  color: white;
+}
+.skills {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#Projects img {
+  filter: brightness(25%);
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+  margin-inline: auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
