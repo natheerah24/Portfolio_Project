@@ -1,10 +1,12 @@
-#Navigation {
+.navbar {
   position: sticky;
   top: 0;
   right: 0;
   z-index: 1000;
 }
-
+.nav-item .nav-link {
+  color: #ffffff;
+}
 div#nav-button {
   justify-content: end;
 }
@@ -21,8 +23,12 @@ div#nav-button {
   top: 0;
   left: 0;
 }
+.burger {
+  color: white;
+}
 .card-body {
   display: flex;
+  justify-content: space-evenly;
 }
 .card-bodys {
   display: flex;
@@ -33,7 +39,7 @@ div#nav-button {
   transform: rotate(180deg);
   text-align: center;
   padding: 20px;
-  background-color: var(--blueGray4);
+  background-color: #36454f;
   text-transform: uppercase;
   display: block;
   margin-block-start: 1em;
@@ -43,7 +49,7 @@ div#nav-button {
 }
 #Landing {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url(/landing-bg.jpg);
+    url(/assets/landing-bg.jpg);
   min-height: 100vh;
   background-position: center;
   background-size: cover;
@@ -106,10 +112,6 @@ h2 {
 .card12 > i {
   font-size: 60px;
 }
-/* 
-.skills:hover {
-
-} */
 
 .skills-container .card12:hover {
   background-color: #bfad5f;
@@ -158,7 +160,7 @@ ul {
 .col.aos-init.aos-animate {
   padding-left: 30%;
 }
-button#submitbtn {
+#submitbtn {
   margin-top: 20px;
   width: 100%;
 }
@@ -179,10 +181,10 @@ button#submitbtn {
   padding-right: 350px;
   /* width: 65%; */
 }
-.jason {
+/* .jason {
   height: 235px;
   object-fit: cover;
-}
+} */
 
 .row .flow-right {
   margin-left: 25%;
@@ -198,4 +200,23 @@ button#submitbtn {
 }
 #Projects h1 {
   text-align: center;
+}
+.navbar-toggler svg {
+  color: #ffffff;
+}
+.sect {
+  margin: 40px;
+  padding: 40px;
+  height: fit-content;
+  background-color: rgb(25, 25, 27);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+img.img-fluid {
+  border: solid #36454f;
+  border-radius: 50px;
+}
+#test-img {
+  border-radius: 80%;
 }
