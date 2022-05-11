@@ -197,12 +197,7 @@ ul {
 #submit-btn {
   width: 100%;
   padding-right: 350px;
-  /* width: 65%; */
 }
-/* .jason {
-  height: 235px;
-  object-fit: cover;
-} */
 
 .flow-right {
   margin-left: 25%;
@@ -242,7 +237,9 @@ img.img-fluid {
 #test-img {
   border-radius: 80%;
 }
-
+#Contact .row {
+  margin-right: 0%;
+}
 @media (max-width: 663px) {
   .sect {
     margin: 0%;
@@ -299,7 +296,7 @@ img.img-fluid {
 .test_img {
   display: flex;
   width: 240px;
-  height: 330px;
+  height: 280px;
   object-fit: cover;
   border-radius: 9px 9px 0 0;
   margin-left: 5vw;
