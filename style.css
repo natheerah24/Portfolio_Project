@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .navbar {
   position: sticky;
   top: 0;
@@ -25,6 +28,15 @@ div#nav-button {
 }
 .burger {
   color: white;
+}
+#Contact input {
+  margin: auto;
+}
+#Contact textarea {
+  margin: auto;
+}
+#Contact button {
+  margin: auto;
 }
 .card-body {
   display: flex;
@@ -68,9 +80,20 @@ h2 {
 .hover-zoom {
   transition: transform 0.3s linear;
 }
-
+.muneeb {
+  margin-left: -30px;
+}
 .hover-zoom:hover {
   transform: scale(1.08);
+}
+.testimonial p {
+  padding: 10px;
+}
+.testimonial {
+  overflow-y: hidden;
+}
+.problem h2 {
+  padding-top: 20px;
 }
 .bg-image {
   max-width: 50%;
@@ -241,6 +264,9 @@ img.img-fluid {
   margin-right: 0%;
 }
 @media (max-width: 663px) {
+  body {
+    overflow-x: hidden;
+  }
   .sect {
     margin: 0%;
     padding: 0%;
@@ -248,6 +274,9 @@ img.img-fluid {
     width: 100%;
   }
   @media (max-width: 625px) {
+    body {
+      overflow-x: hidden;
+    }
     .row .flow-right {
       margin-left: 0%;
     }
@@ -286,13 +315,14 @@ img.img-fluid {
 }
 .testimonial {
   height: 600px;
-  width: 380px;
+  width: 400px;
   border: 1px solid white;
   border-radius: 9px;
   margin: 25px;
   background-color: #292b2c;
   overflow-x: hidden;
 }
+
 .test_img {
   display: flex;
   width: 240px;
@@ -342,11 +372,17 @@ img.img-fluid {
   transition: 0.5s;
 }
 @media only screen and (max-width: 670px) {
+  body {
+    overflow-x: hidden;
+  }
   #Projects img {
     width: 100%;
   }
 }
 @media only screen and (max-width: 904px) {
+  body {
+    overflow-x: hidden;
+  }
   .testimonial {
     height: 600px;
     width: 340px;
