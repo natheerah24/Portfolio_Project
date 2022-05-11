@@ -401,7 +401,7 @@ img.img-fluid {
   .test_img {
     display: flex;
     width: 236px;
-    height: 330px;
+    /* height: 330px; */
     object-fit: cover;
     border-radius: 9px 9px 0 0;
     margin-left: 12vw;
