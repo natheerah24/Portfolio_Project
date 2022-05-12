@@ -7,7 +7,6 @@ body {
   right: 0;
   z-index: 1000;
 }
-
 .nav-item .nav-link {
   color: #ffffff;
 }
@@ -28,7 +27,13 @@ div#nav-button {
   left: 0;
 }
 .burger {
-  color: white;
+  color: #36454f;
+}
+#exampleFormControlInput1 {
+  background-color: #36454f;
+}
+#exampleFormControlTextarea1 {
+  background-color: #36454f;
 }
 #Contact input {
   margin: auto;
@@ -60,6 +65,17 @@ div#nav-button {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+.card-header1 {
+  text-align: center;
+  /* padding: 10px; */
+  background-color: #36454f;
+  text-transform: uppercase;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 #Landing {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url(/assets/landing-bg.jpg);
@@ -70,13 +86,14 @@ div#nav-button {
 body {
   overflow-x: hidden;
 }
+#About .Important {
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 90px;
+}
 .Important {
   color: #bfad5f;
   font-family: "Satisfy", cursive;
-}
-h1,
-h2 {
-  font-family: "Old Standard TT", serif;
 }
 .hover-zoom {
   transition: transform 0.3s linear;
@@ -88,7 +105,9 @@ h2 {
   transform: scale(1.08);
 }
 .testimonial p {
-  padding: 10px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 10px;
 }
 .testimonial {
   overflow-y: hidden;
@@ -110,7 +129,7 @@ h2 {
 #Skills {
   min-height: 100vh;
   padding: 5% 10%;
-  background-color: white;
+  background-color: #000000;
   background-size: cover;
   background-position: center;
   color: #bfad5f;
@@ -124,26 +143,31 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  padding-left: 16px;
+  padding-top: 20px;
 }
 .card12 {
   box-shadow: 10px 4px 11px rgb(0, 0, 0, 1.5);
-  width: 300px;
+  width: 150px;
   height: 100px;
   text-align: center;
-  background-color: #fff;
+  background-color: #36454f;
 }
 .card12 > i {
   font-size: 60px;
 }
-
+.sk-style {
+  position: relative;
+  margin-top: 20%;
+}
 .skills-container .card12:hover {
   background-color: #bfad5f;
-  color: white;
+  color: #36454f;
 }
 .skills {
-  width: 200px;
-  height: 200px;
+  width: 60px;
+  height: 50px;
   margin: auto;
   padding-top: 20px;
 }
@@ -177,10 +201,10 @@ ul {
 }
 .socials i {
   font-size: 30px;
-  color: white;
+  color: #bfad5f;
 }
 .socials i:hover {
-  color: #bfad5f;
+  color: #36454f;
 }
 .form-control {
   /* display: block; */
@@ -192,9 +216,9 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #36454f;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #36454f;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -225,18 +249,30 @@ ul {
   padding-right: 350px;
 }
 
-.flow-right {
+/* .flow-right {
   margin-left: 25%;
-}
+} */
 .card-bodys {
   padding-left: 20px;
   padding-top: 10px;
 }
 .resume-lay {
-  margin-left: 35%;
+  /* margin-left: 35%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.flow,
+.flow-right {
+  width: 55%;
+}
+
+.flow-right {
+  align-self: flex-end;
 }
 #Resume h1 {
   text-align: center;
+  padding-bottom: 20px;
 }
 #Testimonials h1 {
   text-align: center;
@@ -319,7 +355,7 @@ img.img-fluid {
 .testimonial {
   height: 600px;
   width: 400px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 9px;
   margin: 25px;
   background-color: #292b2c;
@@ -419,4 +455,8 @@ img.img-fluid {
     margin-left: 15vw;
     margin-top: 8vh;
   }
+}
+.card.bg-dark {
+  padding: 50px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
 }
