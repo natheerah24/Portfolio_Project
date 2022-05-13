@@ -84,6 +84,9 @@ div#nav-button {
   background-position: center;
   background-size: cover;
 }
+#land {
+  padding-top: 35px;
+}
 body {
   overflow-x: hidden;
 }
@@ -447,7 +450,7 @@ img.img-fluid {
     padding-right: 1px;
   }
   #Testimonials h1 {
-    padding-top: 80px;
+    padding-top: 10px;
   }
   #Projects h1 {
     padding-top: 80px;
