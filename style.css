@@ -1,3 +1,4 @@
+html,
 body {
   overflow-x: hidden;
 }
@@ -423,7 +424,7 @@ img.img-fluid {
     overflow-x: hidden;
   }
   .testimonial {
-    height: 600px;
+    height: 630px;
     width: 340px;
     border: 1px solid white;
 
@@ -433,6 +434,31 @@ img.img-fluid {
 
     overflow-x: hidden;
     overflow-y: hidden;
+  }
+  #resume-card {
+    position: relative;
+    right: 130px;
+    width: 287px;
+  }
+  #resume-card-opp {
+    position: relative;
+    left: 40px;
+    width: 280px;
+    padding-right: 1px;
+  }
+  #Testimonials h1 {
+    padding-top: 80px;
+  }
+  #Projects h1 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  #Resume h1 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  #about2{
+      
   }
   body {
     margin-right: 0%;
