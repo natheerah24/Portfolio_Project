@@ -2,12 +2,12 @@ html,
 body {
   overflow-x: hidden;
 }
-.navbar {
+/* .navbar {
   position: sticky;
   top: 0;
   right: 0;
   z-index: 1000;
-}
+} */
 .nav-item .nav-link {
   color: #ffffff;
 }
@@ -457,9 +457,12 @@ img.img-fluid {
     padding-top: 80px;
     padding-bottom: 40px;
   }
-  #about2{
-      
-  }
+  /* .navbar {
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+  } */
   body {
     margin-right: 0%;
   }
