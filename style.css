@@ -466,6 +466,14 @@ img.img-fluid {
     right: 0;
     z-index: 1000;
   } */
+  #About .Important {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 5px;
+  }
+  .skills-container.aos-init.aos-animate {
+    padding-left: 64px;
+  }
   body {
     margin-right: 0%;
   }
