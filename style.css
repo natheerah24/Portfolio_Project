@@ -164,6 +164,7 @@ body {
 .sk-style {
   position: relative;
   margin-top: 20%;
+  padding-left: 53px;
 }
 .skills-container .card12:hover {
   background-color: #bfad5f;
