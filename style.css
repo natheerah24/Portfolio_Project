@@ -85,7 +85,9 @@ div#nav-button {
   background-size: cover;
 }
 #land {
-  padding-top: 35px;
+  margin-top: 23rem;
+  margin-left: -3rem;
+
 }
 body {
   overflow-x: hidden;
@@ -332,7 +334,11 @@ img.img-fluid {
     }
   }
 }
-
+@media (max-width: 625px) {
+  #land {
+    margin-top: 15rem;
+  }
+}
 .sort {
   display: inline-block;
   justify-content: center;
@@ -446,7 +452,7 @@ img.img-fluid {
   }
   #resume-card-opp {
     position: relative;
-    left: 40px;
+    left: 48px;
     width: 280px;
     padding-right: 1px;
   }
@@ -470,11 +476,11 @@ img.img-fluid {
   #About .Important {
     text-align: center;
     padding-top: 10px;
-    padding-right: 5px;
+    /* padding-right: 5px; */
   }
-  .skills-container.aos-init.aos-animate {
+  /* .skills-container.aos-init.aos-animate {
     padding-left: 64px;
-  }
+  } */
   body {
     margin-right: 0%;
   }
